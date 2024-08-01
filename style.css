@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav_ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 450px;
+}
+.nav h2{
+    margin: 0 20px;
+}
+.li_a{
+    padding: 0 30px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.li_a:hover{
+    padding: 20px 30;
+    color:rgb(255, 252, 252);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 15px;
+    background: rgb(13, 1, 84);
+    transition: 0.60s ease;
+}
+.nav_img{
+    width: 100%;
+    height: 450px;
+    opacity: 0.5;
+}
+.nav_img:hover{
+    opacity: 1;
+    transition: 2s;
+}
+.box{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+.bloc{
+    align-items: center;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 10px -2px black;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+.bloc_h2{
+    color: rgb(194, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.linya{
+    background: linear-gradient(to left,rgb(255, 255, 255), rgba(2, 196, 255, 0.534),rgb(255, 255, 255));
+    width: 180px;
+    height: 2px;
+    margin: 30px 0;
+}
+.bloc_btn{
+    padding: 10px 70px;
+    background: rgba(0, 33, 251, 0.918);
+    border: none;   
+    margin: 16px 0;
+}
+.bloc_btn:hover{
+    padding: 10px 70px;
+    background: rgb(0, 0, 0);
+    border: none;
+    margin: 16px 0;
+    border-radius: 30px;
+    transition: 1s;
+}
+.bloc_btn a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.blac{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    margin: 70px;
+}
+.one{
+    width: 900px;
+}
+.one p{
+    margin: 30px 0;
+}
+.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue_img{
+    width: 70px;
+    height: 60px;
+    padding: 3px 0px;
+}
+.grenn{
+    background: url(img/tanjiro.jpg) no-repeat center center / cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three{
+    color: rgb(255, 255, 255);
+    margin: 168px;
+}
+.three_p{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.blue{
+    padding: 20px 0;
+}
